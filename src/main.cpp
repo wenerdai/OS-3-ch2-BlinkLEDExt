@@ -1,8 +1,5 @@
 /***
- * Demo program to flash an LED attached to GPIO PAD 0.
- * Uses FreeRTOS Task
- * Jon Durrant
- * 15-Aug-2022
+U13157007
  */
 
 
@@ -20,7 +17,7 @@
 #define LED_PAD				0
 
 //Blink Delay
-#define DELAY				500
+#define DELAY				150 /*將閃爍間隔改150毫秒*/
 
 
 
